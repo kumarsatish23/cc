@@ -1935,7 +1935,11 @@ ol {
  {
 		display: none;
 	}
-		.phone-number{display: 1;}
+		.phone-number{display: 1;
+		font-size: 0.6rem;
+		margin-right: 0px;
+		padding: 5px 5px;
+	}
 	.nav-switch {
 		position: absolute;
 		right: 20px;
