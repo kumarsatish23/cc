@@ -201,11 +201,18 @@ ol {
 	text-align: center;
 	padding: 19px 0;
 	position: relative;
-	background-color: transparent;
+	background-color: white;
 	margin-right: 15px;
 	z-index: 1;
+	transition: transform .5s;
 }
+.site-btn:hover
+{
 
+	-ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
 .site-btn:after,
 .site-btn:before {
 	position: absolute;
@@ -637,7 +644,7 @@ ol {
 }
 
 .slide-content {
-	margin-left: 350px;
+	margin-left: 200px;
 	margin-bottom: 50px;
 	padding-left: 190px;
 	padding-top: 170px;
