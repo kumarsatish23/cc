@@ -2156,3 +2156,15 @@ ol {
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+.video-responsive {
+  text-align: center;
+}
+
+@media screen and (max-width: 560px) {
+  .video-responsive {
+    overflow: hidden;
+    padding-bottom: 81.25%;
+    position: relative;
+    height: 0;
+  }
+}
