@@ -716,7 +716,7 @@ ol {
 }
 
 .service-box .sb-icon .sb-img-icon img {
-	opacity: 0.2;
+	opacity: 1;
 	max-height: 70px;
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
@@ -759,6 +759,10 @@ ol {
 
 .service-box:hover .sb-icon .sb-img-icon img {
 	opacity: 1;
+	filter:contrast(0%);
+	filter: brightness(0%);
+	-webkit-filter :contrast(0%);
+	-webkit-filter :brightness(0%);
 }
 
 .service-box:hover .readmore {
