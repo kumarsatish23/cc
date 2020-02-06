@@ -1046,7 +1046,7 @@ ol {
 .client-slider .single-brand a img {
 	width: auto;
 	margin: 0 auto;
-	opacity: 0.2;
+	opacity: 1;
 	-webkit-transition: all 0.4s;
 	-o-transition: all 0.4s;
 	transition: all 0.4s;
