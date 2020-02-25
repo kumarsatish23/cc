@@ -2008,9 +2008,9 @@ ol {
 	.slide-num-holder,
 	.slide-num-holder.test-slider {
 		right: 0;
-		height: 75px;
-		width: 136px;
-		padding-top: 18px;
+		height: 60px;
+		width: 120px;
+		padding-top: 10px;
 	}
 	.slide-num-holder span,
 	.slide-num-holder.test-slider span {
