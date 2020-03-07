@@ -1647,7 +1647,7 @@ ol {
 	padding-top: 10px;
 }
 
-.contact-form input,
+.contact-form input,select,
 .contact-form textarea {
 	width: 100%;
 	font-size: 13px;
