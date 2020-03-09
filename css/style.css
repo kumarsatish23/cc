@@ -1112,7 +1112,10 @@ ol {
 	font-size: 82px;
 	color: #fff;
 }
-
+.page-header-section .header-titledark {
+	font-size: 82px;
+	color: #000;
+}
 .page-header-section .header-title span {
 	background: none;
 	color: #7bcdc9;
